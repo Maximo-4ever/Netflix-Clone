@@ -1,0 +1,15 @@
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.row__poster {
+  width: 100%;
+  max-width: 100px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 0.45s;
+}
+.row__poster:hover {
+  transform: scale(1.08);
+}
