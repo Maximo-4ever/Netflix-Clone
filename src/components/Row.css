@@ -1,15 +1,16 @@
-.row {
-  padding-left: 20px;
+.container {
+  padding-left: 25px;
   color: #fff;
+  margin: 20px 0;
 }
-.row:first-of-type {
-  margin-top: 20px;
+.row {
+  margin-bottom: 17px;
 }
 .row__posters {
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  padding: 10px;
+  padding: 10px 0;
 }
 .row__posters::-webkit-scrollbar {
   display: none;
